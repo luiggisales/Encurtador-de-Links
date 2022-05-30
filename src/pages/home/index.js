@@ -5,7 +5,7 @@ import Logo from '../../assets/logo'
 import Menu from '../../components/menu'
 import ModalLink from '../../components/Modal'
 import api from '../../services/api';
-import { getLinkSave,saveLinkStorage } from '../../services/storelinks'
+import { getLinkSave,saveLinkStorage } from '../../services/storelinks';
 
 export default function Home() {
   const [link, setLink ] = useState(null);
