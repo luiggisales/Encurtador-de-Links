@@ -5,6 +5,7 @@
     font-weight: bold;
     display: flex;
     animation: slideX 2s;
+    justify-content: space-between;
 }
 .Menu a{
     text-decoration: none;
@@ -14,7 +15,11 @@
     display: flex;
     align-items: center;
 }
-
+.appmobile {
+    margin: auto 15px;
+    text-decoration: none;
+    color: #ffff;    
+}
 .menu-item {
     color: #000;
     background-color: #ffff;
